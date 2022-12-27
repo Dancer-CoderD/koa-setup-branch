@@ -1,0 +1,25 @@
+{
+  "name": "koa-setup-branch",
+  "version": "1.0.0",
+  "description": "自学实现一个基于 nodejs 的 cli 工具",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "rimraf ./hei && node ./bin/index.js",
+    "dev": "node ./bin/index.js"
+  },
+  "keywords": ["nodejs","koa","setup"],
+  "author": "Dancer-CoderD",
+  "homepage": "",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "ejs": "^3.1.8",
+    "execa": "^6.1.0",
+    "inquirer": "^9.1.4",
+    "prettier": "^2.8.1",
+    "rimraf": "^3.0.2"
+  }
+}
