@@ -11,8 +11,10 @@
   },
   "keywords": ["nodejs","koa","setup"],
   "author": "Dancer-CoderD",
-  "homepage": "",
-  "repository": {},
+  "homepage": "https://github.com/Dancer-CoderD/koa-setup-branch",
+  "repository": {
+    "Git": "https://github.com/Dancer-CoderD/koa-setup-branch"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
