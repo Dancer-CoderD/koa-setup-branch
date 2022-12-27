@@ -11,6 +11,8 @@ npm/yarn/pnpm install
 
 npm run/yarn/pnpm dev
 
+cd yourProject && node index.js
+
 ```
 
 2. npm使用
@@ -19,6 +21,8 @@ npm run/yarn/pnpm dev
 npm/yarn/pnpm install koa-setup-branch -g
 
 koa-setup-branch
+
+cd yourProject && node index.js
 
 ```
 
